@@ -1,0 +1,83 @@
+/* Reset & General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Hover effects */
+.menu a:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+/* Register Button */
+.btn-register {
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+    background-color: #e55b00;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
