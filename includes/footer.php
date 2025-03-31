@@ -42,7 +42,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/E-CommercePHP/config.php';
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright © 2025, All Rights Reserved <span>Anup</span></p>
+        <p>Copyright © 2025, All Rights Reserved <span>Mar-Market</span></p>
     </div>    
 </footer>
 
