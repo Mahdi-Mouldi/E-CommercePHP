@@ -22,7 +22,7 @@
     margin-top: 10px;
     font-size: 16px;
 }
-.register-container input{
+.register-container input {
     width: 95%;
     padding: 10px;
     margin-top: 5px;
@@ -31,7 +31,7 @@
     background-color: #333;
     color: white;
 }
-.btn-register{
+.btn-register {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
