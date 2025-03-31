@@ -1,4 +1,3 @@
-/* Reset & General Settings */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,6 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Header Styles */
 .header {
     background-color: #1a1a1a;
     color: #fff;
@@ -47,13 +45,11 @@
     transition: 0.3s;
 }
 
-/* Hover effects */
 .menu a:hover {
     background-color: #ff6600;
     color: #fff;
 }
 
-/* Register Button */
 .btn-register {
     background-color: #ff6600;
     color: #fff;
@@ -68,16 +64,37 @@
     background-color: #e55b00;
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        text-align: center;
+.menu-toggle {
+    display: none;
+    position: relative;
+    font-size: 28px;
+    left: 100px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .menu-toggle {
+        display: block;
     }
 
-    .menu {
+    .nav .menu {
+        display: none;
         flex-direction: column;
-        gap: 15px;
-        margin-top: 20px;
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 60px;
+        right: 1px;
+        width: 140px;
+        border-radius: 5px;
+        padding: 10px 0;
+        z-index: 1000; 
+    }
+
+    .nav .menu.active {
+        display: flex;
     }
 }
+
